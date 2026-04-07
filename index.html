@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liga Futbolin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Liga de amigos</p>
+        <h1>Liga Futbolin</h1>
+        <p class="hero-text">Clasificacion, jornadas y estadisticas personales en una sola app. Solo la pestana de entrada permite editar resultados.</p>
+      </div>
+      <div class="hero-panel">
+        <div class="hero-stat">
+          <span id="hero-leader-name">-</span>
+          <strong>Lider actual</strong>
+        </div>
+        <div class="hero-stat">
+          <span id="hero-top-scorer-name">-</span>
+          <strong>Maximo goleador</strong>
+        </div>
+        <div class="hero-stat">
+          <span id="hero-progress">0/18</span>
+          <strong>Jornadas jugadas</strong>
+        </div>
+        <button type="button" class="admin-button" id="admin-toggle">Modo admin</button>
+      </div>
+    </header>
+
+    <nav class="tab-bar" id="tab-bar"></nav>
+    <main id="tab-content"></main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
