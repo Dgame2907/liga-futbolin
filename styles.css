@@ -79,6 +79,18 @@ body::before {
   font-size: 1.1rem;
 }
 
+.hero-update {
+  display: inline-block;
+  margin: 16px 0 0;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 247, 231, 0.12);
+  border: 1px solid rgba(255, 241, 212, 0.16);
+  color: #fff3dc;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
 .hero-panel, #tab-content, .results-grid, .entry-grid, .player-grid, .dashboard-grid {
   display: grid;
   gap: 22px;
