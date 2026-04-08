@@ -16,16 +16,16 @@ const INITIAL_MATCHES = [
   { jornada: 6, team1: ["Arnau", "David"], team2: ["Marc", "Sergi"], descansan: ["Pere", "Alex"], score1: null, score2: null, goals: { Arnau: null, David: null, Marc: null, Sergi: null } },
   { jornada: 7, team1: ["Arnau", "Marc"], team2: ["Sergi", "Alex"], descansan: ["David", "Pere"], score1: null, score2: null, goals: { Arnau: null, Marc: null, Sergi: null, Alex: null } },
   { jornada: 8, team1: ["Arnau", "Alex"], team2: ["Pere", "Sergi"], descansan: ["David", "Marc"], score1: null, score2: null, goals: { Arnau: null, Alex: null, Pere: null, Sergi: null } },
-  { jornada: 9, team1: ["Arnau", "Sergi"], team2: ["Pere", "Marc"], descansan: ["Alex", "David"], score1: null, score2: null, goals: { Arnau: null, Sergi: null, Pere: null, Marc: null } },
-  { jornada: 10, team1: ["Arnau", "Pere"], team2: ["Marc", "David"], descansan: ["Alex", "Sergi"], score1: null, score2: null, goals: { Arnau: null, Pere: null, Marc: null, David: null } },
-  { jornada: 11, team1: ["Arnau", "Alex"], team2: ["Pere", "David"], descansan: ["Marc", "Sergi"], score1: null, score2: null, goals: { Arnau: null, Alex: null, Pere: null, David: null } },
-  { jornada: 12, team1: ["Arnau", "David"], team2: ["Pere", "Sergi"], descansan: ["Alex", "Marc"], score1: null, score2: null, goals: { Arnau: null, David: null, Pere: null, Sergi: null } },
-  { jornada: 13, team1: ["Arnau", "Marc"], team2: ["Alex", "Sergi"], descansan: ["Pere", "David"], score1: null, score2: null, goals: { Arnau: null, Marc: null, Alex: null, Sergi: null } },
+  { jornada: 9, team1: ["Arnau", "David"], team2: ["Alex", "Pere"], descansan: ["Marc", "Sergi"], score1: null, score2: null, goals: { Arnau: null, David: null, Alex: null, Pere: null } },
+  { jornada: 10, team1: ["Arnau", "Marc"], team2: ["Pere", "Sergi"], descansan: ["Alex", "David"], score1: null, score2: null, goals: { Arnau: null, Marc: null, Pere: null, Sergi: null } },
+  { jornada: 11, team1: ["Arnau", "Sergi"], team2: ["Pere", "David"], descansan: ["Alex", "Marc"], score1: null, score2: null, goals: { Arnau: null, Sergi: null, Pere: null, David: null } },
+  { jornada: 12, team1: ["Arnau", "Pere"], team2: ["David", "Marc"], descansan: ["Alex", "Sergi"], score1: null, score2: null, goals: { Arnau: null, Pere: null, David: null, Marc: null } },
+  { jornada: 13, team1: ["Arnau", "Alex"], team2: ["Marc", "Sergi"], descansan: ["Pere", "David"], score1: null, score2: null, goals: { Arnau: null, Alex: null, Marc: null, Sergi: null } },
   { jornada: 14, team1: ["Arnau", "David"], team2: ["Alex", "Marc"], descansan: ["Pere", "Sergi"], score1: null, score2: null, goals: { Arnau: null, David: null, Alex: null, Marc: null } },
-  { jornada: 15, team1: ["Arnau", "Sergi"], team2: ["Marc", "David"], descansan: ["Pere", "Alex"], score1: null, score2: null, goals: { Arnau: null, Sergi: null, Marc: null, David: null } },
-  { jornada: 16, team1: ["Pere", "David"], team2: ["Alex", "Sergi"], descansan: ["Arnau", "Marc"], score1: null, score2: null, goals: { Pere: null, David: null, Alex: null, Sergi: null } },
-  { jornada: 17, team1: ["Pere", "Marc"], team2: ["Alex", "David"], descansan: ["Arnau", "Sergi"], score1: null, score2: null, goals: { Pere: null, Marc: null, Alex: null, David: null } },
-  { jornada: 18, team1: ["Pere", "Sergi"], team2: ["Alex", "Marc"], descansan: ["Arnau", "David"], score1: null, score2: null, goals: { Pere: null, Sergi: null, Alex: null, Marc: null } }
+  { jornada: 15, team1: ["Arnau", "Sergi"], team2: ["David", "Marc"], descansan: ["Pere", "Alex"], score1: null, score2: null, goals: { Arnau: null, Sergi: null, David: null, Marc: null } },
+  { jornada: 16, team1: ["Alex", "Marc"], team2: ["Pere", "Sergi"], descansan: ["Arnau", "David"], score1: null, score2: null, goals: { Alex: null, Marc: null, Pere: null, Sergi: null } },
+  { jornada: 17, team1: ["Alex", "Pere"], team2: ["Marc", "David"], descansan: ["Arnau", "Sergi"], score1: null, score2: null, goals: { Alex: null, Pere: null, Marc: null, David: null } },
+  { jornada: 18, team1: ["Alex", "Pere"], team2: ["David", "Sergi"], descansan: ["Arnau", "Marc"], score1: null, score2: null, goals: { Alex: null, Pere: null, David: null, Sergi: null } }
 ];
 
 const tabs = [
